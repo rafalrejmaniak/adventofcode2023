@@ -10,6 +10,6 @@ for line in f:
                 digits.append(str(d+1))
     score = int(digits[0] + digits[-1])
     ans += score
-print(ans)
+print("answer is", ans)
 
 f.close()
