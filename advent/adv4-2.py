@@ -31,6 +31,6 @@ for i, card in enumerate(all_cards):
     for next in range(i + 1, i + win + 1):
         cards_dict[next] = cards_dict.get(next, 1) + cards_dict[i]
 
-print(sum(cards_dict.values()))
-
+ans = sum(cards_dict.values())
+print(ans)
 
